@@ -15,7 +15,7 @@ Explanation of how the program works:
 - After is done processing, it will show it on the browser.
 - I attached two files to verify that the code is working, one is a screenshot and a html file
 
-
+<img src="https://raw.githubusercontent.com/joseplatas/csc471_project_2/master/screen_shot_of_solve_problem.png">
 
 PROBLEM
 Chapter 6 in the textbook shows that any given context-free grammar can be simplified by removing λ-productions, unit-productions, and useless productions. The algorithms to removing these productions are described in Section 6.1 and were discussed in our classes. In this project, you will implement these algorithms using a programming language.
