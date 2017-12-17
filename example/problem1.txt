@@ -1,0 +1,4 @@
+S->aA|aBB
+A->aaA|lambda
+B->bB|bbC
+C->B
