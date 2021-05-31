@@ -145,7 +145,15 @@ function check_for_unit_production($arr){
   }
   //return the corrected array
 
-  $arr = remove_unit($arr);
+  $arr_main = get_array_main($arr);
+  for ($i=0; $i < 1; $i++) {
+    for ($k = 0; $k < sizeof($arr[$i]['values']); $k ++){
+      if(in_array(trim($arr[$i]['values'][$k]),$arr_main) == 1) {
+        array_splice($arr[$i]['values'],$k,1);
+        $k--;
+      }
+    }
+  }
 
   return $arr;
 }
